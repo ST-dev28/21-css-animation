@@ -10,6 +10,7 @@ body {
   width: 100px;
   height: 100px;
   background-color: yellow;
+  border: 0 dotted red;
   animation-name: susiapvalinti;
   animation-duration: 2s;
   animation-iteration-count: infinite;
@@ -19,7 +20,30 @@ body {
   0% {
     border-radius: 0;
   }
+  50% {
+    width: 200px;
+    height: 200px;
+  }
   100% {
     border-radius: 50%;
+    background-color: blue;
+    border-width: 10px;
   }
+  /*25% {
+    background-color: lightgoldenrodyellow;
+    border: 2.5px dotted red;
+  }
+  50% {
+    background-color: lightblue;
+    border: 5px dotted red;
+  }
+  75% {
+    background-color: lightskyblue;
+    border: 7.5px dotted red;
+  }
+  100% {
+    border: 10px dotted red;
+    background-color: blue;
+    border-radius: 50%;
+  }*/
 }
